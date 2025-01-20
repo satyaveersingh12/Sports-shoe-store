@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Shoe Store</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Sports Shoe Store</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#cart">Cart</a></li>
+                    <li><a href= "#About">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="home">
+        <div class="container">
+            <h2>Welcome to the Best Sports Shoe Store</h2>
+            <p>Find the best deals on high-quality sports shoes!</p>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <div class="product" data-id="1">
+                   
+                    <img src="https://redtape.com/cdn/shop/files/RSL0587B_1._39b241be-70b5-40e5-be2d-46b32290a14d.jpg?v=1737011036" alt="shoe 1">
+                    <h3>Rad tape Shoe</h3>
+                    <p>2599rs</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product" data-id="2">
+                    <img src="https://redtape.com/cdn/shop/files/RSL0623_1..jpg?v=1737009437" alt="Shoe 2">
+                    <h3>Red tape Shoe</h3>
+                    <p>2599rs</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product" data-id="3">
+                    <img src="https://as1.ftcdn.net/v2/jpg/03/07/62/92/1000_F_307629267_OCT5zEZTUAqkJGNXurc4N7JXfRwztuL7.jpg" alt="Shoe 3">
+                    <h3>Nike shoe</h3>
+                    <p>1999rs</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product" data-id="4">
+                    <img src="https://as2.ftcdn.net/v2/jpg/04/79/11/23/1000_F_479112366_dku6Ufwd9OVnRB3AZxonMgRzuZYeTTYY.jpg" alt="Shoe 4">
+                    <h3>Nike shoe</h3>
+                    <p>1999rs</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="product-list">
+                <div class="product" data-id="5">
+                    <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/c/g/z/-original-imagg7t3yuwguyw7.jpeg?q=90&crop=false" alt="shoe 5">
+                    <h3>Compuse Shoe</h3>
+                    <p>1499rs</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product" data-id="6">
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSBQMB0zkXwmOLXPlpv3SAJudsEjLXspBEBY0j8_cJvtmPmFOnCg_bkbe-BJXMrW6u7K43HQUbSE1y7Q2oO2yepM7pIoEKZViAE7Po7Gldu6G-r_Ux_mJZq" alt="Shoe 6">
+                <h3>Compuse Shoe</h3>
+                <p>1499rs</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="7">
+                <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/p/k/w/-original-imahfrsttjxguxqk.jpeg?q=90&crop=false" alt="Shoe 7">
+                <h3>Puma shoe</h3>
+                <p>1299rs</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="8">
+                <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/17350722/2022/5/11/b6eb8c85-2454-456a-bb88-3f43b292e78a1652267741450-Puma-Men-Casual-Shoes-7961652267741125-1.jpg" alt="Shoe 8">
+                <h3>Puma shoe</h3>
+                <p>1299rs</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    </section>
+
+    <section id="cart" class="cart">
+        <div class="container">
+            <h2>Shopping Cart</h2>
+            <ul class="cart-items"></ul>
+            <div class="total">
+                <h3>Total: <span id="total-price">0.Rs</span></h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="About" class="About">
+        <div class="container">
+            <h1>About</h1>
+            <h3>comfartable shoe collection!</h3>
+            <p>Best price</p>
+
+        </div>
+    </section>
+
+    <section id="Contact" class="Contact">
+        <div class="container">
+            <h1>Contact</h1>
+            <div class="Box">
+                <div class="icon"><i class="fa fa-address-card" aria-hidden="true"></i></div>
+                <div class="text">
+                    <h3>Adderess</h3>
+                    <p>Aya nagar New delhi</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                <div class="text">
+                    <h3>phone</h3>
+                    <p>+91 7380530794</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                <div class="text">
+                    <h3>E-mail</h3>
+                    <p>satya12102002yadav@gmaol.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy;Sports Shoe Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
